@@ -10,7 +10,8 @@ import android.support.v4.app.FragmentManager;
  */
 
 public abstract class SingleFragmentActivity extends FragmentActivity {
-        protected abstract Fragment createFragment();
+
+    protected abstract Fragment createFragment();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
